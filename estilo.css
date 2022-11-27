@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: #999;
+    background-image: url(love.jpg);
+}
+
+#principal{
+    width: 800px;
+    height: 1200px;
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 8px 10px rgb(160, 206, 218);
+    
+}
+#cabecalho{
+    height: 250px;
+    background-color: rgb(148, 202, 228);
+   
+}
+#conteudo{
+    height: 700px;
+    background-color: #ddd;
+    padding: 50px;
+}
+/*----- Rodapé -----*/
+#rodape{
+    height: 150px;
+    width: 800px;
+    background-color:#555;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px 5px 5px royalblue inset;
+}
+.nota-rodape{
+    color: #ccc;
+    text-align: center;
+    margin-top: 30px;
+}
+.nota-rodape > hr{
+ background-color:burlywood;
+}
+#cabecalho-conteudo{
+    height: 210px;
+    line-height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#cabecalho-conteudo > h1{
+    font-size: 70px;
+    text-align: center;
+}
+#menu{
+    height: 40px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu > ul {
+    list-style-type: none;
+}
+#menu > ul > li {
+    display: inline;
+    float: left;
+    background-color:#555;
+    height: 40px;
+    width: 165px;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 40px;
+}
+#menu > ul > li > a{
+  color: #fff;
+  text-decoration: none;  
+  font-weight: bold;
+  display: block;
+}
+#menu > ul > li >  a.ativa{
+    background-color: #999;
+}
+#menu > ul > li > a:hover{
+    background-color: #999;
+
+}
+/*----- Banner do site -----*/
+.banner-cont{
+    background-color:#ccc;
+    height: 100px;
+    margin-bottom: 20px;
+    background-image: url(love.png);
+}
+.banner-cont > h1{
+    color: #000;
+    text-align: center;
+    line-height: 90px;
+
+
+}
+/*----- Conteudo do site -----*/
+.conteudo-cont{
+    height: 300px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.conteudo-cont > div{
+    height: 280px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.conteudo-cont > div > img{
+    display: block;
+    width: 260px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteudo-cont > div > .legenda{
+    width: 260px;
+    text-align: center;
+}
+.conteudo-cont > div > .texto{
+text-align: justify;
+font-size: 20px;
+}
+
+/*----- Imagem do site -----*/
+.imagem-cont{
+    height: 200px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.imagem-cont > div{
+    height: 180px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.imagem-cont > div > img{
+    display: block;
+    width: 200px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagem-cont > div > p{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+/*----- Link do site-----*/
+.link-cont{
+    background-color: #ccc;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.link-cont > div{
+    height: 30px;
+    margin: 10px;
+    flex-grow: 1;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.link-cont > div > a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
