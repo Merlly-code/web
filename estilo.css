@@ -6,7 +6,7 @@
 
 body{
     background: #999;
-    background-image: url(../image/love.jpg);
+    background-image: url(/image/love.jpg);
 }
 
 #principal{
@@ -92,7 +92,7 @@ body{
     background-color:#ccc;
     height: 100px;
     margin-bottom: 20px;
-    background-image: url(../image/love.png);
+    background-image: url(/image/love.png);
 }
 .banner-cont > h1{
     color: #000;
